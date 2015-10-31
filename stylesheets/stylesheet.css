@@ -318,13 +318,26 @@ Full-Width Styles
 }
 
 #downloads {
-  position: absolute;
+  /*position: absolute;
   width: 210px;
   z-index: 10;
   bottom: -40px;
   right: 0;
   height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+  background: url('../images/icon_download.png') no-repeat 0% 90%;*/
+  
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 0;
+  padding: 5px 40px 5px 10px;
+  color: #fff;
+  background: url('../images/icon_download.png') #0090ff no-repeat 95% 50%;
+  font-weight: 400;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .zip_download_link {
