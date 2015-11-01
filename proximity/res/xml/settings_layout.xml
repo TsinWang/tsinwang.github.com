@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/service">
+        <CheckBoxPreference android:title="@string/service_preference_title" android:key="service" android:summary="@string/service_preference_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/wave_settings_title">
+        <ListPreference android:entries="@array/wave_min_duration_preference" android:title="@string/wave_min_duration_preference_title" android:key="wave_min_duration" android:summary="@string/wave_min_duration_preference_summary" android:defaultValue="5" android:dialogTitle="@string/wave_min_duration_preference_title" android:entryValues="@array/wave_min_duration_preference_values" />
+        <ListPreference android:entries="@array/wave_duration_preference" android:title="@string/wave_duration_preference_title" android:key="wave_duration" android:summary="@string/wave_duration_preference_summary" android:defaultValue="500" android:dialogTitle="@string/wave_duration_preference_title" android:entryValues="@array/wave_duration_preference_values" />
+        <!-- <ListPreference android:entries="@array/time_between_waves_entries" android:title="@string/time_between_waves_title" android:key="maxTimeBetweenWaves" android:summary="@string/time_between_waves_summary" android:defaultValue="500" android:dialogTitle="@string/time_between_waves_title" android:entryValues="@array/time_between_waves_values" /> -->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hold_settings_title">
+        <ListPreference android:entries="@array/hold_duration_preference" android:title="@string/first_hold_title" android:key="first_hold" android:summary="@string/first_hold_summary" android:defaultValue="2000" android:dialogTitle="@string/first_hold_title" android:entryValues="@array/hold_duration_preference_values" />
+        <ListPreference android:entries="@array/max_hold_duration_preference" android:title="@string/next_hold_title" android:key="next_hold" android:summary="@string/next_hold_summary" android:defaultValue="1000" android:dialogTitle="@string/next_hold_title" android:entryValues="@array/max_hold_duration_preference_values" />
+    </PreferenceCategory>  
+   <!--  <PreferenceCategory android:title="@string/speakermode">
+        <CheckBoxPreference android:title="@string/speaker_preference_title" android:key="speaker" android:summary="@string/speaker_preference_summary" android:defaultValue="true" />
+    </PreferenceCategory> -->
+    <PreferenceCategory android:title="@string/feedback">
+        <CheckBoxPreference android:title="@string/feedback_preference_title" android:key="feedback" android:summary="@string/feedback_preference_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/sound_feedback_preference_title" android:key="sound feedback" android:summary="@string/sound_feedback_preference_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sensor_testing">
+    <PreferenceScreen android:title="@string/sensor_testing_title" android:key="testing" android:summary="@string/sensor_testing_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

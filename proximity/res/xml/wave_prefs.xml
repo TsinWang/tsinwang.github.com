@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/screen_on_title">
+        <ListPreference android:entries="@array/action_preference" android:title="@string/one_preference_title" android:key="one" android:summary="@string/one_preference_summary" android:defaultValue="off" android:dialogTitle="@string/one_preference_title" android:entryValues="@array/action_preference_values" />
+        <ListPreference android:entries="@array/action_preference" android:title="@string/two_preference_title" android:key="two" android:summary="@string/two_preference_summary" android:defaultValue="off" android:dialogTitle="@string/two_preference_title" android:entryValues="@array/action_preference_values" />
+        <ListPreference android:entries="@array/action_preference" android:title="@string/three_preference_title" android:key="three" android:summary="@string/three_preference_summary" android:defaultValue="off" android:dialogTitle="@string/three_preference_title" android:entryValues="@array/action_preference_values" />
+        <ListPreference android:entries="@array/action_preference" android:title="@string/four_preference_title" android:key="four" android:summary="@string/four_preference_summary" android:defaultValue="off" android:dialogTitle="@string/four_preference_title" android:entryValues="@array/action_preference_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/screen_off_title">
+        <ListPreference android:entries="@array/action_preference_2" android:title="@string/one_preference_title" android:key="one_2" android:summary="@string/one_preference_summary" android:defaultValue="off" android:dialogTitle="@string/one_preference_title" android:entryValues="@array/action_preference_values_2" />
+        <ListPreference android:entries="@array/action_preference_2" android:title="@string/two_preference_title" android:key="two_2" android:summary="@string/two_preference_summary" android:defaultValue="off" android:dialogTitle="@string/two_preference_title" android:entryValues="@array/action_preference_values_2" />
+        <ListPreference android:entries="@array/action_preference_2" android:title="@string/three_preference_title" android:key="three_2" android:summary="@string/three_preference_summary" android:defaultValue="off" android:dialogTitle="@string/three_preference_title" android:entryValues="@array/action_preference_values_2" />
+        <ListPreference android:entries="@array/action_preference_2" android:title="@string/four_preference_title" android:key="four_2" android:summary="@string/four_preference_summary" android:defaultValue="off" android:dialogTitle="@string/four_preference_title" android:entryValues="@array/action_preference_values_2" />
+    </PreferenceCategory>
+</PreferenceScreen>

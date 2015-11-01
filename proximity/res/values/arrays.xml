@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="action_preference">
+        <item>Do nothing (Off)</item>
+        <item>Launch App</item>
+        <item>Screen Lock</item>
+        <item>Screen Auto-Rotation On/Off</item>
+        <item>Call Contact</item>
+        <item>Accept Call</item>
+        <item>Music: Play/Pause</item>
+        <item>Music: Play Next</item>
+        <item>Music: Play Previous</item>
+    </string-array>
+    <string-array name="action_preference_2">
+        <item>Do nothing (Off)</item>
+        <item>Wake Up</item>
+        <item>Call Contact</item>
+        <item>LED On/Off</item>
+        <item>Music: Play/Pause</item>
+        <item>Music: Play Next</item>
+        <item>Music: Play Previous</item>
+    </string-array>
+    <string-array name="hold_duration_preference">
+        <item>0.5 sec.</item>
+        <item>1.0 sec.</item>
+        <item>1.5 sec.</item>
+        <item>2.0 sec.</item>
+        <item>2.5 sec.</item>
+        <item>3.0 sec.</item>
+    </string-array>
+    <string-array name="max_hold_duration_preference">
+        <item>+0.6 sec.</item>
+        <item>+1.0 sec.</item>
+        <item>+1.5 sec.</item>
+        <item>+2.0 sec.</item>
+        <item>+2.5 sec.</item>
+        <item>+3.0 sec.</item>
+    </string-array>
+    <string-array name="wave_duration_preference">
+        <item>0.10 sec.</item>
+        <item>0.20 sec.</item>
+        <item>0.30 sec.</item>
+        <item>0.40 sec.</item>
+        <item>0.50 sec.</item>
+        <item>0.60 sec.</item>
+        <item>0.70 sec.</item>
+        <item>0.80 sec.</item>
+        <item>0.90 sec.</item>
+    </string-array>
+   <!--  <string-array name="time_between_waves_entries">
+        <item>0.30 sec.</item>
+        <item>0.40 sec.</item>
+        <item>0.50 sec.</item>
+        <item>0.60 sec.</item>
+        <item>0.70 sec.</item>
+        <item>0.80 sec.</item>
+        <item>0.90 sec.</item>
+        <item>1.00 sec.</item>
+        <item>1.10 sec.</item>
+        <item>1.20 sec.</item>
+        <item>1.30 sec.</item>
+    </string-array> -->
+    <string-array name="wave_min_duration_preference">
+        <item>0 sec.</item>
+        <item>0.005 sec.</item>
+        <item>0.010 sec.</item>
+        <item>0.015 sec.</item>
+        <item>0.020 sec.</item>
+        <item>0.050 sec.</item>
+        <item>0.100 sec.</item>
+    </string-array>
+    <string-array name="action_preference_values_2">
+        <item>off</item>
+        <item>wakeup</item>
+        <item>contact</item>
+        <item>led</item>
+        <item>play/pause</item>
+        <item>play next</item>
+        <item>play previous</item>
+    </string-array>
+    <string-array name="action_preference_values">
+        <item>off</item>
+        <item>app</item>
+        <item>screen off</item>
+        <item>auto rotation</item>
+        <item>contact</item>
+        <item>accept</item>
+        <item>play/pause</item>
+        <item>play next</item>
+        <item>play previous</item>
+    </string-array>
+    <string-array name="hold_duration_preference_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+    </string-array>
+    <string-array name="max_hold_duration_preference_values">
+        <item>600</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+    </string-array>
+    <string-array name="wave_min_duration_preference_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="wave_duration_preference_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+    </string-array>
+    <!-- <string-array name="time_between_waves_values">
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>750</item>
+        <item>800</item>
+        <item>950</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1200</item>
+        <item>1300</item>
+    </string-array>     -->
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="main_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/actions_title" android:key="actions" android:summary="@string/actions_summary" />
+    <PreferenceScreen android:title="@string/settings_title" android:key="options" android:summary="@string/settings_summary" />
+    <PreferenceScreen android:title="@string/howtouse_title" android:key="howtouse" android:summary="@string/howtouse_summary" />
+    <CheckBoxPreference android:title="@string/devadmin_preference_title" android:key="devadmin" android:summary="@string/devadmin_preference_summary" />
+</PreferenceScreen>
